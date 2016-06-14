@@ -1,0 +1,19 @@
+{
+  "name": "star-wars-conn",
+  "version": "1.0.0",
+  "description": "React.js, Redux & SWAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caraclarke/star-wars-conn.git"
+  },
+  "author": "Cara Clarke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caraclarke/star-wars-conn/issues"
+  },
+  "homepage": "https://github.com/caraclarke/star-wars-conn#readme"
+}
