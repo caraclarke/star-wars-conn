@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { Provider } from 'react-redux';
 import configureStore from './stores/configureStore';
 import * as actions from './actions';
 
@@ -21,6 +22,8 @@ const store = configureStore();
 store.dispatch(actions.setFilms(films));
 
 ReactDOM.render(
-  <Films films={films} />,
+  <Provider store={store}>
+    <Films />
+  </Provider>,
   document.getElementById('app')
 );
